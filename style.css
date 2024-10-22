@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header{
+    color: white;
+    height: 875px;
+    background-image: url(img/bg\ picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 28px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav ul li:first-child:hover{
+    transition: all 1s;
+    color: #F57520;
+    text-shadow: 0px 2px 4px #F57520;
+}
+
+.nav ul li:nth-child(2):hover{
+    transition: all 1s;
+    color: #F57520;
+    text-shadow: 0px 2px 4px #F57520;
+}
+
+.nav ul li:nth-child(3):hover{
+    transition: all 1s;
+    color: #F57520;
+    text-shadow: 0px 2px 4px #F57520;
+}
+
+.nav ul li:last-child:hover{
+    transition: all 1s;
+    color: #F57520;
+    text-shadow: 0px 2px 4px #F57520;
+}
+
+.img img:hover{
+    width: 32px;
+    height: 32px;
+}
+
+.main1{
+    margin: 80px 220px;
+}
+
+.main1 h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.08px;
+}
+
+.main1 p{
+    margin-top: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
+.button1{
+    margin-top: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.68px;
+
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #F57520;
+    color: white;
+    border: none;
+}
+
+.button1:hover{
+    box-shadow: 0px 2px 8px 4px #F57520;
+}
+
+.section1{
+    background-color: grey;
+    padding-bottom: 120px;
+}
+
+.section1 h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    text-align: center;
+}
+
+.velosiped{
+    margin: 122px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 1335px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #F57520;
+}
+
+.velosiped:hover{
+    transition: all 1s;
+    box-shadow: 0px 4px 8px 4px #F57520;
+}
+
+.velosiped h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    color: white;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    /* margin:30px 120px; */
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.trade{
+    position: relative;
+    bottom: 98px;
+    width: 400px;
+    height: 458px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    right: 20px;
+}
+
+.trade:hover{
+    transition: all 1s;
+    text-shadow: 0px 4px 8px #F57520;
+}
+
+.trade img{
+    position: relative;
+    top: 65px;
+}
+
+.trade h3{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+}
+
+.child2{
+    width: 448px;
+    height: 216px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    left: 40px;
+}
+
+.baby1:hover{
+    transition: all 1s;
+    text-shadow: 0px 4px 8px #F57520;
+}
+
+.baby2:hover{
+    transition: all 1s;
+    text-shadow: 0px 4px 8px #F57520;
+}
+
+.baby3{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    padding-top: 20px;
+    /* bottom: 30px; */
+}
+
+.baby3 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    margin: 29px -80px;
+    position: relative;
+    right: 20px;
+}
+
+.baby3:hover{
+    transition: all 1s;
+    text-shadow: 0px 4px 8px #F57520;
+}
+
+.baby3 img{
+    position: relative;
+    top: 70px;
+}
+
+.baby4{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 20px;
+    position: relative;
+    top:90px;
+}
+
+.baby4:hover{
+    transition: all 1s;
+    text-shadow: 0px 4px 8px #F57520;
+}
+
+.baby4 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    position: relative;
+    top: 29px;
+    /* right: 1px; */
+}
+
+
+.child1{
+    width: 400px;
+    height: 216px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 95px;
+    right: 10px;
+}
+
+.baby1{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.baby1 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    margin: 29px 60px;
+}
+
+.baby1 img{
+    position: relative;
+    bottom: 20px;
+}
+
+.baby2{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.baby2 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    position: relative;
+    top: 29px;
+    left: 60px;
+}
+
+.list{
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    text-align: center;
+}
+
+.parent5{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.child5{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.child5 img{
+    width: 400px;
+    height: 195px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.child5 h4{
+    margin: 24px 27px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 25.6px;
+    text-align: left;
+}
+
+.child5 p{
+    margin-left: 27px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+   text-align: left;
+}
+
+.child5:hover{
+    transition: all 1s;
+    background-color: #F57520;
+    color: black;
+    box-shadow: 0px 4px 6px 12px #F57520;
+}
+
+.section2{
+    padding-bottom: 40px;
+    padding: 52px auto;
+    text-align: center;
+    background-color: #F57520;
+}
+
+.section2 h2{
+    padding-top: 52px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49.2px;
+}
+
+.section2 form{
+    margin-top: 92px;
+}
+
+.list4{
+    background-color: white;
+    margin: 16px 16px 0px ;
+    width:302px;
+    height:46px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+.style1{
+    text-align: start;
+    align-content: start;
+    padding: 10px;
+    margin-top: 16px;
+    border: none;
+    width: 608px;
+    height:154px;
+    border-radius: 10px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+}
+
+.style2{
+    margin-top: 24px;
+    width:608px;
+    height:52px;
+    padding: 16px 80px 16px 80px;
+    border-radius: 10px ;
+    border: none;
+    color: #F57520;
+}
+
+.map{
+    width: 100%;
+    height: 500px;
+    margin-bottom:-5px ;
+}
+
+.foot{
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot ul {
+    display: flex;
+    align-items: center;
+    gap: 91px;
+}
